@@ -1,13 +1,13 @@
 # 👋 你好，我是徐尧 | 个人开发者
 
-![GitHub Banner](https://github-readme-stats.vercel.app/api?username=panzerdream&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=panzerdream&layout=compact&theme=radical)
+![GitHub Banner](https://stats.justsong.cn/api?username=panzerdream&show_icons=true&theme=radical)
+![Top Languages](https://stats.justsong.cn/api/top-langs/?username=panzerdream&layout=compact&theme=radical)
 
 ## 🚀 关于我
 
-我是一名充满创造力的软件开发者，专注于从用户角度出发创造可改变生活的小应用。凭借扎实的计算机学科基础与敏锐的洞察力，外加全栈开发经验与AI应用开发能力，迅速创造高效、不断迭代且用户友好的解决方案。
+我是一名充满创造力的软件开发者，专注于从用户角度出发创造可改变生活的应用。凭借扎实的计算机学科基础与敏锐的洞察力，外加全栈开发经验与AI应用开发能力，迅速创造高效、不断迭代且用户友好的解决方案。
 
-- 🔭 **目前正在开发：** 单智能体对话系统与记忆改进
+- 🔭 **目前正在开发：** 多智能体个人工作流架构
 - 🌱 **正在学习：** 高级全栈技术与多智能体协同
 - 👯 **希望合作：** 开源项目，特别是Agent相关技术
 - 💬 **可以问我：** Python和软件架构，工作流与Hermes Agent约束
@@ -18,6 +18,7 @@
 ## 🛠️ 技术栈
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -38,9 +39,34 @@
 ![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibabacloud&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-FF6A00?style=for-the-badge&logo=langchain&logoColor=white)
+![AutoGen](https://img.shields.io/badge/AutoGen-7C3AED?style=for-the-badge&logo=python&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-00A67E?style=for-the-badge&logo=openai&logoColor=white)
 
 ## 🎨 精选项目
+
+## **多智能体自媒体智能运营系统**
+*开发时间：2026.03-至今*
+
+设计并实现了一个本地部署的多智能体协同创作系统，通过6个AI Agent（策划、研究、写作、审核、素材生成、图片处理）自动化完成微信公众号、小红书等自媒体平台的全流程图文创作。实现了可暂停/恢复的状态机工作流引擎，在关键节点（大纲确认、质量审核）引入人工干预，支持跨服务重启的进度持久化。统一抽象LLM调用层（兼容OpenAI/Anthropic/Ollama 3种API协议），支持9种模型热切换；统一抽象图片生成层（DALL·E/Stability AI/Tongyi Wanxiang/本地SD等7种后端），实现模型无关的可插拔架构。
+
+**技术栈：** FastAPI + React 18 + TypeScript + Ant Design + SQLite，支持Docker一键部署和Electron桌面端
+
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<img src="img/fdy-1.png" alt="多智能体自媒体运营系统截图1" width="300"/>
+<br>
+<sub>系统主界面</sub>
+</td>
+<td align="center">
+<img src="img/fdy-2.png" alt="多智能体自媒体运营系统截图2" width="300"/>
+<br>
+<sub>工作流引擎</sub>
+</td>
+</tr>
+</table>
+</div>
 
 ## **[景明（Jingming）《星露谷物语》智能Agent导游](https://github.com/panzerdream/jingming)**
 使用 **LangChain** 框架开发的RAG知识库智能体，实现了DENSE+BM25混合索引，向量数据库与Redis混合多源记忆与高可用性
@@ -162,4 +188,4 @@
 
 ⭐ **欢迎探索我的仓库，如有合作意向请随时联系！** ⭐
 
-*最后更新：2026年4月*
+*最后更新：2026年5月*
